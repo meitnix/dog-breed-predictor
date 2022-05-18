@@ -1,1 +1,4 @@
+
 This folder will conatain images used in the HTML template
+The image 1011.jpg was designed by freepik.com
+image url :https://www.freepik.com/free-vector/cute-funny-dogs-seamless-pattern-illustration-cartoon-animal-dog-background-with-pets-puppy-and-dogs_13031448.htm
