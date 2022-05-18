@@ -1,0 +1,72 @@
+<!doctype html>
+<head>
+	<title>DOG BREED PREDICTOR</title>
+	<style>
+		#container {
+			position: relative;
+    margin: 50px auto;
+    width: 500px;
+    height: 375px;
+    border: 12px #333 solid;
+}
+.videoElement {
+	margin: auto auto;
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+}
+#ss{
+outline: 0;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+background-color: black;
+border: 1px solid red;
+padding: 6px 12px;
+font-size: 1rem;
+border-radius: 5px;
+color: #0d6efd;
+border-color: #0d6efd;}
+#ss:hover {
+	cursor: pointer;
+	color: #000;
+	background-color: #0d6efd;
+	border-color: #0d6efd;
+}
+#ss2{
+outline: 0;
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+background-color: black;
+border: 1px solid white;
+padding: 6px 12px;
+font-size: 1rem;
+border-radius: 5px;
+color: #0d6efd;
+border-color: #0d6efd;}
+#ss2:hover {
+	cursor: pointer;
+	color: #000;
+	background-color: #0d6efd;
+	border-color: #0d6efd;
+}
+#buttonbox{
+	position:absolute;
+	left: 43%;
+}	
+</style>
+</head>
+<body style="background:url(/static/images/1011.jpg) center / 30% repeat;">
+<form method="post" action="/" enctype="multipart/form-data">
+	<div style="background:url(/static/images/title.gif) center / auto no-repeat;height:100px;">&nbsp;</div>
+<div id="container">
+        <img class="videoElement"src="{{url_for('video')}}">
+</div><br>
+<div id="buttonbox">
+<button id="ss" name="classifier" value="Start/Stop">Start/Stop</button>
+<button id="ss2" name="close" value="Pause Video">Close Webcam</button>
+</div>
+</form>
+</body>
