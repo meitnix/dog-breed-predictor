@@ -1,0 +1,1 @@
+This folder will conatain images used in the HTML template
