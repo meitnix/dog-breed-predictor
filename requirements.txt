@@ -3,6 +3,4 @@ keras==2.8.0
 Keras-Preprocessing==1.1.2
 numpy==1.22.3
 opencv-python==4.5.5.64
-pandas==1.4.2
-pandas-datareader==0.10.0
 tensorflow==2.8.0
